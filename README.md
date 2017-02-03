@@ -3,6 +3,9 @@
 This repository proposes some scripts on top of openocd to flash and debug seamlessly official STM32 development board
 (Nucleo, Discovery and Eval series)
 
+## Prerequistites
+- Functional gdb
+
 ## Quick install and use
 
 ### Install opencod
