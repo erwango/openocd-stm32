@@ -32,3 +32,6 @@ This version support following families:
 ### openocd
 Current openocd version is 0.10.0.
 Check [README](https://github.com/openocd-stm32/README) for more information
+
+## Credits
+Thanks to @jamike for his initial work and support
