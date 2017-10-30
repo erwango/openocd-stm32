@@ -12,11 +12,11 @@ function stm32_flsh {
 pkill openocd
 openocd -s $OPENOCD_SCRIPTS -f stm32"$1".cfg -c "stm_flash $2"
 }
+
 function stm32_flsh_addr {
 pkill openocd
 openocd -s $OPENOCD_SCRIPTS -f stm32"$1".cfg -c "stm_flash_addr $2 $3"
 }
-
 
 function stm32_dbg {
 pkill openocd

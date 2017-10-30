@@ -26,6 +26,12 @@ This repository proposes some scripts on top of openocd to flash and debug seaml
 - For a STM32 L4 board (eg: nucleo_l476rg)
 - `$ stm32_dbg l4 binary.elf`
 
+### Commands
+For ease of use, following command could be defined in a local .gdbinit
+- `define`
+- `rst monitor reset halt`
+- `end`
+
 ## About
 
 ### Supported STM32 families
